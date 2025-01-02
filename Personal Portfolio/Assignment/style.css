@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f8fc;
+    margin: 0;
+    padding: 0;
+}
+header {
+    position: relative;
+    background-color: #ffda77;
+    padding: 50px 15px;
+    overflow: hidden;
+}
+.hero-content {
+    z-index: 2;
+    position: relative;
+}
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #333;
+    margin-bottom: 20px;
+}
+.hero p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    color: #333030;
+}
+.hero img {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+    max-width: 350px;
+    border-radius: 50%;
+}
+.nav-links {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.nav-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+.btn-custom {
+    background-color: #ffcc33;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.btn-custom:hover {
+    background-color: #e6b800;
+}
+.projects-section {
+    padding: 50px 15px;
+}
+.project-card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+.project-card:hover {
+    transform: translateY(-5px);
+}
+.project-card img {
+    width: 100%;
+    height: auto;
+}
+.footer {
+    background-color: #ffda77;
+    padding: 20px;
+    text-align: center;
+    color: #333;
+}
+.form-control, .btn {
+    border-radius: 5px;
+}
+.form-section {
+    padding: 50px 15px;
+    background-color: #f7f8fc;
+}
+
